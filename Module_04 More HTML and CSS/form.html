@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<body>
+
+    <h1>Rafee's Car</h1>
+
+    <form>
+        <label for="name">Enter your name:
+            <input type="text" id="name" placeholder="Your Name">
+        </label>
+        <br>
+        <label for="email">Enter your email:
+            <input type="email" id="email" placeholder="Your Email">
+        </label>
+        <br>
+        <label for="mobile">Enter your mobile:
+            <input type="number" id="mobile" placeholder="Your Mobile">
+        </label>
+
+        <fieldset>
+            <legend>Chose your car:</legend>
+
+            <label for="lambo">
+                <input type="radio" name="car" id="lambo">
+                Lamborgini
+            </label>
+
+            <label for="bmw">
+                <input type="radio" name="car" id="bmw">
+                BMW
+            </label>
+
+            <label for="honda">
+                <input type="radio" name="car" id="honda">
+                Honda
+            </label>
+
+            <label for="rolls">
+                <input type="radio" name="car" id="rolls">
+                Rollds-Royce
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick your colors:</legend>
+
+            <label for="red">
+                <input type="checkbox" name="color" id="red">
+                Red
+            </label>
+
+            <label for="red">
+                <input type="checkbox" name="color" id="red">
+                Black
+            </label>
+
+            <label for="red">
+                <input type="checkbox" name="color" id="red">
+                White
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>FeedBack about cars</legend>
+
+            <textarea name="feedback" id="comment" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
